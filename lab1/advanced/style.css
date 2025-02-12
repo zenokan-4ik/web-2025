@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Tektur';
+    src: url(src/Tektur.ttf);
+}
+
+html {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid black;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+    max-width: 60%;
+    align-items: center;
+}
+
+.text {
+    max-width: 60%;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+
+.line{
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+p, h1, h2 {
+    font-size: 20px;
+    font-family: 'Tektur';
+}
