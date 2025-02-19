@@ -40,7 +40,7 @@ body {
 .text {
     max-width: 60%;
 }
-
+ 
 .text-wrapper {
     display: flex;
     flex-direction: row;
