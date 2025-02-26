@@ -19,6 +19,5 @@ BEGIN
       THEN
         WRITELN('The British coming by the air')
       ELSE
-        WRITELN('The North Church shows only ', Arg[-1])
-
+        WRITELN('The North Church shows something weird')
 END.

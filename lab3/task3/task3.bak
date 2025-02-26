@@ -10,5 +10,5 @@ BEGIN
   Args := GetEnv('QUERY_STRING');
   Index := Pos('name=', Args);
   WRITE('Hello dear, ');
-  WRITELN(Copy(Args, Index+5));
+  WRITELN(Copy(Args, Index+5), '!');
 END.

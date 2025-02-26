@@ -2,11 +2,12 @@ PROGRAM Task1(INPUT, OUTPUT);
 USES
   DOS;
 BEGIN
-  WRITELN('Content-Type: text/plain');
+  WRITELN('Content-Type: text/html');
   WRITELN;
   WRITELN('REQUEST_METHOD: ', GetEnv('REQUEST_METHOD'));
   WRITELN('QUERY_STRING: ', GetEnv('QUERY_STRING'));
   WRITELN('CONTENT_LENGHT: ', GetEnv('CONTENT_LENGHT'));
   WRITELN('HTTP_USER_AGENT: ', GetEnv('HTTP_USER_AGENT'));
-  WRITELN('HTTP_HOST: ', GetEnv('HTTP_HOST'))
+  WRITELN('HTTP_HOST: ', GetEnv('HTTP_HOST'));
+  WRITELN('<img src="https://media1.tenor.com/m/edntMFMKAOsAAAAd/pudge-пудж.gif" />')
 END.

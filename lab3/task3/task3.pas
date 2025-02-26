@@ -9,6 +9,11 @@ BEGIN
   WRITELN;
   Args := GetEnv('QUERY_STRING');
   Index := Pos('name=', Args);
+  Name := Copy(Args, Index+5);
   WRITE('Hello dear, ');
-  WRITELN(Copy(Args, Index+5), '!');
+  IF(Name <> '')
+  THEN
+    WRITELN(Name, '!')
+  ELSE
+    WRITELN('Anonymous!')
 END.

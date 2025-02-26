@@ -22,5 +22,5 @@ BEGIN
   WRITELN;
   WRITELN('first_name: ', GetQueryStringParameter('first_name'));
   WRITELN('last_name: ', GetQueryStringParameter('last_name'));
-  WRITELN('age: ', GetQueryStringParameter('age'));
+  WRITELN('age: ', GetQueryStringParameter('age'))
 END.
