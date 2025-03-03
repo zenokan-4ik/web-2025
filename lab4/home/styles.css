@@ -1,0 +1,118 @@
+:root {
+    --bg-color: white;
+    --text-color: #222222;
+    --edit-color: #808080;
+    --help-text: rgba(34, 34, 34, 0.5);
+    --count-text: rgba(34, 34, 34, 0.5);
+}
+
+@font-face {
+    font-family: 'Golos UI';
+    src: url('src/Golos-UI_Regular.ttf');
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    padding: 20px 5px 20px 5px;
+}
+
+.navigation img {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Golos UI';        
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.posts {
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.posts img {
+    height: 100%;
+    width: auto;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.userdata {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.contentwrapper {
+    position: relative;
+    min-height: 474px;
+    min-width: 474px;
+    padding: 10px 0px 10px 0px;
+}
+
+.contentwrapper .count {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--count-text);
+    color: white;
+}
+
+.likes {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+}
+
+p.content {
+    max-height: 40px;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.time {
+    color: var(--help-text);
+    font-size: 14px;
+}
+/* TODO */
+/* img.left {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+
+img.right {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    right: 10   px;
+} */
