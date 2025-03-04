@@ -27,7 +27,9 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    font-family: 'Golos UI';        
+    font-family: 'Golos UI';      
+    height: 100vh;
+    overflow: hidden;
 }
 
 .wrapper {
@@ -35,6 +37,7 @@ body{
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    overflow: scroll;
 }
 
 .posts {
